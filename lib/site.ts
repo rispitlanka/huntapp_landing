@@ -14,9 +14,17 @@ export const site = {
   // TODO: your contact email
   email: 'hello@example.com',
 
-  // TODO: your legal pages
-  privacyUrl: '#',
+  privacyUrl: '/privacy',
+  // TODO: your terms page
   termsUrl: '#',
+};
+
+/** Company details shown on the legal pages. */
+export const legal = {
+  company: 'Rispit PVT Ltd',
+  address: '84/4, Postoffice Lane, Vannarpannai, Sri Lanka',
+  email: 'info@rispit.com',
+  privacyUpdated: '13 October 2026',
 };
 
 export const listPlaceHref = `mailto:${site.email}?subject=${encodeURIComponent('List my place on Hunt')}`;
