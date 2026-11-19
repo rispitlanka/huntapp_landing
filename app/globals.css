@@ -113,6 +113,11 @@ button { font: inherit; color: inherit; }
 .store--light { background: var(--card); color: var(--ink); box-shadow: 0 3px 0 var(--ink); }
 .store--light:hover { box-shadow: 0 5px 0 var(--ink); }
 .store--light:active { box-shadow: 0 0 0 var(--ink); }
+.store--soon { cursor: default; }
+.store--soon:hover,
+.store--soon:active { transform: none; box-shadow: 0 3px 0 var(--orange); }
+.store--light.store--soon:hover,
+.store--light.store--soon:active { box-shadow: 0 3px 0 var(--ink); }
 
 /* ---------- Bits ---------- */
 .card {

@@ -7,9 +7,7 @@ export const site = {
   description:
     'Hunt shows you good bars, cafés and hidden spots near you. Take a photo when you visit, earn points, and swap them for free food and drinks.',
 
-  // TODO: replace with your real store links
-  appStoreUrl: '#',
-  playStoreUrl: '#',
+  playStoreUrl: 'https://play.google.com/store/apps/details?id=com.hunt.mobile&hl=en',
 
   // TODO: your contact email
   email: 'hello@example.com',

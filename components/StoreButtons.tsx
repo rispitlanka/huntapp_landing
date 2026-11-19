@@ -5,14 +5,14 @@ export default function StoreButtons({ light = false }: { light?: boolean }) {
   const cls = light ? 'store store--light' : 'store';
   return (
     <>
-      <a className={cls} href={site.appStoreUrl}>
+      <span className={`${cls} store--soon`} aria-disabled="true">
         <PhoneIcon />
         <span>
-          <small>DOWNLOAD FOR</small>
+          <small>COMING SOON</small>
           <b>iPhone</b>
         </span>
-      </a>
-      <a className={cls} href={site.playStoreUrl}>
+      </span>
+      <a className={cls} href={site.playStoreUrl} target="_blank" rel="noreferrer">
         <PhoneIcon />
         <span>
           <small>GET IT FOR</small>
