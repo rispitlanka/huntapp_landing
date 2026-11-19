@@ -8,7 +8,7 @@ export default function StoreButtons({ light = false }: { light?: boolean }) {
       <a className={cls} href={site.appStoreUrl}>
         <PhoneIcon />
         <span>
-          <small>DOWNLOAD FOR</small>
+          <small>Coming Soon</small>
           <b>iPhone</b>
         </span>
       </a>

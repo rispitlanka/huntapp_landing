@@ -9,7 +9,7 @@ export const site = {
 
   // TODO: replace with your real store links
   appStoreUrl: '#',
-  playStoreUrl: '#',
+  playStoreUrl: 'https://play.google.com/store/apps/details?id=com.hunt.mobile&hl=en',
 
   email: 'info@rispit.com',
 
